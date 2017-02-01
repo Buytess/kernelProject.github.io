@@ -520,11 +520,11 @@ button {
 
 .title h6:after {
 
-	content: "";
+	 content: "";
 
 	display: block;
 
-	position: absolute;
+	position: relative;
 
 	height: 2px;
 
@@ -532,11 +532,10 @@ button {
 
 	background-color: #00aeff;
 
-	bottom: 0;
+    bottom:20%;
 
-	left: 50%;
+	margin:40px auto;
 
-	margin-left: -40px;
 
 }
 
@@ -4059,13 +4058,256 @@ header{ margin-bottom: 20px; }
 
 }
 
+/*Buytess Custom*/
+/*Product.html*/
+#productListTop{
+    text-align: left;
+    padding-top:30px;
+}
+
+#productListBottom{
+    padding: 30px 0 0 0;
+    text-align: left;
+}
+
+#prodH3{
+    line-height:3;
+}
+/* background-color: #FFBDED " for bare package header*/
+
+#textProducts{
+    
+}
+#text11{
+     
+   }
+
+
+#bareEssential,
+#basicEssential,
+#plusPackage{
+    background: url(babyBackground1-2.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+
+#bareEssential,
+#basicEssential,
+#plusPackage{
+    padding: 0px 0px 10px 0px;
+    margin:0px 0px 40px 0px;
+}
+#bareEssential{
+    margin-top:-100px
+}
+
+#basicEssential,
+#plusPackage{
+    
+}
+
+#tagSection{
+    padding-bottom: 10px;
+}
+#tagWrapper{
+    margin: 10px 0px 0px 30px;
+}
+
+#tag1Top{
+    padding: 50px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: #FFBDED;
+    
+}
+
+#tag2Top{
+    padding: 50px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: #C6FFA6;
+    
+}
+
+#tag3Top{
+    padding: 50px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: #FFFE56;
+    
+}
+
+#tagUL li{
+    padding: 10px;
+}
+
+#tagButton{
+    padding: 10px;
+    border-radius: ;
+}
+
+#tag1{
+    width: 30%;
+    margin-right: 40px;
+    position: relative;
+    height: 500px;
+    padding: 0;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+
+#tag1:hover{
+    box-shadow:6px 0px 40px 0px #333 ;
+    transition:0.5s;
+}
+
+#tag2{
+    width: 30%;
+    margin-right: 40px;
+    position: relative;
+    height: 500px;
+    padding: 0;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+#tag2:hover{
+    box-shadow:6px 0px 40px 0px #333 ;
+    transition:0.5s;
+}
+
+#tag3{
+    width: 30%;
+    position: relative;
+    height: 500px;
+    padding: 0;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+#tag3:hover{
+    box-shadow:6px 0px 40px 0px #333 ;
+    transition:0.5s;
+}
+
+/*Text Slider*/
+
+#customerReviewHeader{
+    font-size: 30px;
+    width: 60%;
+    margin: 0px auto;
+}
+
+#carousel {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#textSli {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin:0 auto;
+    height: 200px;
+}
+
+#textSli ul {
+  list-style: none;
+  width:50% ;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#textSli li {
+  width: 100%;
+  float: left;
+  text-align: center;
+  position: relative;
+  font-family: lato, sans-serif;
+}
+
+/* Styling for prev and next buttons */
+
+.btn-bar {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 140px;
+}
+
+#buttons {
+    position: relative;
+    width: 100%;
+    height: 100px;
+ 
+}
+
+#buttons a {
+    display: block;
+    font-size: 50px;
+    font-weight: 900;
+    color: brown;
+    text-decoration: none;
+    margin: -25px 0px 0px 0px;
+}
 
 
 
+#prev{
+    float: left;
+}
+#next{
+    float: right;
+}
+
+a#prev:hover,
+a#next:hover {
+  color: #FFF;
+  text-shadow: .5px 0px #b14943;
+}
+
+.quote-phrase,
+.quote-author {
+  font-family: sans-serif;
+  font-weight: 300;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 20px;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+.quote-phrase {
+  font-size: 24px;
+  font-style: italic;
+  text-shadow: .5px 0px #b14943;
+}
+
+.quote-marks {
+  font-size: 30px;
+  padding: 0 3px 3px;
+  position: inherit;
+}
+
+.quote-author {
+  font-style: normal;
+  font-size: 20px;
+  color: #b14943;
+  font-weight: 400;
+  height: 30px;
+}
+
+.quoteContainer,
+.authorContainer {
+  display: table;
+  width: 100%;
+}
 
 
-
-
+/*-----END----- Buytess*/
 
 /*----------------------------------------------------------------------------------------
 
@@ -5774,7 +6016,7 @@ dl.Zebra_Accordion dt.Zebra_Accordion_Expanded {
 .price-catagory:hover .price-box .btn {
     background-color: transparent;
     color: #ed1c24;
-    border: 1px solid #ed1c24;
+    border: 1px solid #ed1c24;  
 }
 
 .price-box .btn:hover {
