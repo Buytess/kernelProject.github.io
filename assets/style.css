@@ -4058,7 +4058,8 @@ header{ margin-bottom: 20px; }
 
 }
 
-/*Buytess Custom*/
+/*----Buytess Custom----*/
+
 /*Product.html*/
 #productListTop{
     text-align: left;
@@ -4070,6 +4071,10 @@ header{ margin-bottom: 20px; }
     text-align: left;
 }
 
+#tagProductList{
+    background-color:#00aeff;
+}
+
 #prodH3{
     line-height:3;
 }
@@ -4078,46 +4083,43 @@ header{ margin-bottom: 20px; }
 #textProducts{
     
 }
-#text11{
-     
-   }
+
 
 
 #bareEssential,
 #basicEssential,
 #plusPackage{
-    background: url(babyBackground1-2.jpg);
+    background: url(babyBackground1-2Edit.jpg);
     background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;
+    background-size:cover;
+    background-position:bottom;
 }
 
 #bareEssential,
 #basicEssential,
 #plusPackage{
-    padding: 0px 0px 10px 0px;
-    margin:0px 0px 40px 0px;
-}
-#bareEssential{
-    margin-top:-100px
+    padding: 0;
+    margin: 0;
+    
 }
 
-#basicEssential,
 #plusPackage{
-    
+}
+
+
+#h3Wrapper{
+    margin-top: -20px;
 }
 
 #tagSection{
     padding-bottom: 10px;
 }
 #tagWrapper{
-    margin: 10px 0px 0px 30px;
 }
 
 #tag1Top{
     padding: 50px;
     width: 100%;
-    margin: 0px 0px 0px 0px;
     background-color: #FFBDED;
     
 }
@@ -4125,7 +4127,6 @@ header{ margin-bottom: 20px; }
 #tag2Top{
     padding: 50px;
     width: 100%;
-    margin: 0px 0px 0px 0px;
     background-color: #C6FFA6;
     
 }
@@ -4147,15 +4148,15 @@ header{ margin-bottom: 20px; }
     border-radius: ;
 }
 
-#tag1{
-    width: 30%;
-    margin-right: 40px;
-    position: relative;
-    height: 500px;
-    padding: 0;
-    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+.rowTag{
+    padding:0 40px;
 }
 
+#tag1{
+    height: auto;
+    padding-bottom: 30px;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
 
 #tag1:hover{
     box-shadow:6px 0px 40px 0px #333 ;
@@ -4163,11 +4164,8 @@ header{ margin-bottom: 20px; }
 }
 
 #tag2{
-    width: 30%;
-    margin-right: 40px;
-    position: relative;
-    height: 500px;
-    padding: 0;
+    height: auto;
+    padding-bottom: 30px;
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
 
@@ -4177,10 +4175,8 @@ header{ margin-bottom: 20px; }
 }
 
 #tag3{
-    width: 30%;
-    position: relative;
-    height: 500px;
-    padding: 0;
+    height: auto;
+    padding-bottom: 30px;
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
 
@@ -4214,7 +4210,7 @@ header{ margin-bottom: 20px; }
 
 #textSli ul {
   list-style: none;
-  width:50% ;
+  width:90% ;
   height: 150px;
   margin: 0;
   padding: 0;
@@ -4305,6 +4301,8 @@ a#next:hover {
   display: table;
   width: 100%;
 }
+
+
 
 
 /*-----END----- Buytess*/

@@ -1,0 +1,299 @@
+/*320px - 480 (Portrait ans Landscape)*/
+@media screen and (max-width:320px) and (orientation: portrait), screen and (max-width:480px) and (orientation: landscape), 
+       screen and (max-width:480px) and (orientation: portrait), screen and (max-width:480px) and (orientation: landscape){
+           .logo{
+               margin: 5px 0px 0px -18px;
+           }
+           
+    /*index.html*/
+           .textAlign{
+               text-align: justify !important
+           }
+           
+           .rowTag{
+               padding:0 10px;
+           }
+           
+           #tagUL li{
+               padding: 5px;
+           }
+           
+           #tag1Top{
+               padding: 10px;
+               line-height: 3;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag1{
+               width: 100%;
+               height: auto;
+               padding-bottom: 20px;
+               margin: 5px 0 20px 0;
+           }
+           
+           #tag2Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag2{
+               width: 100%;
+               margin: 20px auto;
+               height: auto;
+               padding-bottom: 20px;
+           }
+           
+           #tag3Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag3{
+               width: 100%;
+               margin: 20px auto;
+               height: auto;
+               padding-bottom: 20px;
+           }
+           
+    /*--END index.html--*/
+           
+           
+    /*Product.html*/
+    #productListTop ol li,
+    #productListBottom ol li{
+       margin-left: -20px;
+       text-align: justify;
+        color:black;
+    }
+    ol{
+        padding-bottom: 10px;
+    }
+    ol span{
+        text-align: center !important;
+        margin: 0 auto !important;
+        
+    }
+    #prodH3{
+        height: 50px;
+        font-size: 19px;
+    }
+    
+    #productListHeader{
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 5px;
+        
+    }
+    #productListTop{
+        border-radius: 5px;
+        padding: 0;
+        margin: -5px;
+    }
+    
+    #basicEssential #productListTop,
+    #basicEssential #productListBottom {
+        background-color:#f8f8f8;
+    }
+    
+    #bareEssential,
+    #plusPackage{
+    background:#fff
+}
+        
+    
+}
+
+
+
+@media (max-width:767px){
+    .logo{
+        margin: 5px 0px 0px -18px;
+    }
+    
+    /*index.html*/
+           .textAlign{
+               text-align: justify !important
+           }
+           
+            .rowTag{
+                padding:0 10px; 
+            }
+    
+           #tagUL li{
+               padding: 5px;
+           }
+           
+           #tag1Top{
+               padding: 10px;
+               line-height: 3;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag2Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+          
+           #tag3Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+    
+    #tag1,
+    #tag2,
+    #tag3{
+        height: auto;
+        padding-bottom:20px;
+    }
+          
+           
+    /*--END iindex.html--*/
+           
+           
+    /*Product.html*/
+    
+    #productListTop ol li,
+    #productListBottom ol li{
+       margin-left: -20px;
+       text-align: justify;
+        color:black;
+    }
+    ol{
+        padding-bottom: 10px;
+    }
+    ol span{
+        text-align: center !important;
+        margin: 0 auto !important;
+        
+    }
+    #prodH3{
+        height: 50px;
+        font-size: 19px;
+    }
+    
+    #productListHeader{
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 5px;
+        
+    }
+    #productListTop{
+        border-radius: 5px;
+        padding: 0;
+        margin: -5px;
+    }
+    
+    #basicEssential #productListTop,
+    #basicEssential #productListBottom {
+        background-color:#f8f8f8;
+    }
+    
+    #bareEssential,
+    #plusPackage{
+    background:#fff
+}
+}
+
+@media (min-width:768px) and (max-width:1018px){
+    /*index.html*/
+           .textAlign{
+               text-align: justify !important
+           }
+           
+           #tagUL li{
+               padding: 5px;
+           }
+    
+            .rowTag{
+               padding: 0 10px;
+           }
+    
+           #tag1Top{
+               padding: 10px;
+               line-height: 3;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag2Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag3Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+            
+           
+           
+           
+    /*--END iindex.html--*/
+}
+
+
+
+
+@media (max-width:1024px){
+    .logo{
+        margin: 5px 0px 0px -18px;
+    }
+    
+    
+    
+    #productListTop ol li,
+    #productListBottom ol li{
+       margin-left: -20px;
+       text-align: justify;
+        color:black;
+    }
+    ol{
+        padding-bottom: 10px;
+    }
+    ol span{
+        text-align: center !important;
+        margin: 0 auto !important;
+        
+    }
+    #prodH3{
+        height: 50px;
+        font-size: 19px;
+    }
+    
+    #productListHeader{
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 5px;
+        
+    }
+    #productListTop{
+        border-radius: 5px;
+        padding: 0;
+        margin: -5px;
+    }
+    
+    #basicEssential #productListTop,
+    #basicEssential #productListBottom {
+        background-color:#f8f8f8;
+    }
+    
+    #bareEssential,
+    #plusPackage{
+    background:#fff
+}
+}
