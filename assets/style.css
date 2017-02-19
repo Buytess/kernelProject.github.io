@@ -2385,9 +2385,9 @@ label.error {
 
 	z-index: 2;
 
-	top: -100px;
+	top: 90px;
 
-	right: 70px;
+	right: 100px;
 
 }
 
@@ -4003,7 +4003,7 @@ header{ margin-bottom: 20px; }
 
 	position: absolute;
 
-	top: 40px;
+	top: 200px;
 
 }
 
@@ -4059,8 +4059,61 @@ header{ margin-bottom: 20px; }
 }
 
 /*----Buytess Custom----*/
+*{
+    
+}
+
+.logo{
+     width:130px;
+}
+
+#sloganWord{
+    width: 25%;
+    margin: -300px 150px 0px 0px;
+    padding: 0 !important;
+    background-color: black;
+    border-radius: 5px;
+    clear: both;
+    float: right;
+    
+}
+
+#sloganWord ul li:first-child{
+    border-radius: 5px 5px 0 0 ;
+}
+
+#sloganWord ul li:last-child{
+    border-radius: 0px 0px 5px 5px ;
+}
+
+#sloganWord ul li{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#sloganWord p{
+    font-size: 15px;
+    font-weight:normal;
+    margin: 0;
+}
 
 /*Product.html*/
+
+
+#placeOrderButton{
+    line-height: 2;
+    font-size: 2em;
+    border-radius: 5px;
+    background-color: #00aeff;
+    margin: 50px auto 0 auto;
+    padding: 0 50px;
+    color: #fff;
+}
+
 #productListTop{
     text-align: left;
     padding-top:30px;
@@ -4079,6 +4132,11 @@ header{ margin-bottom: 20px; }
     line-height:3;
 }
 /* background-color: #FFBDED " for bare package header*/
+
+#productListHeader{
+    font-weight:bold;
+    color:purple;
+}
 
 #textProducts{
     
@@ -4110,6 +4168,13 @@ header{ margin-bottom: 20px; }
 #h3Wrapper{
     margin-top: -20px;
 }
+
+
+#productListTop ol li,
+    #productListBottom ol li{
+        line-height: 2;
+        font-weight: 600;
+    }
 
 #tagSection{
     padding-bottom: 10px;
@@ -4189,13 +4254,13 @@ header{ margin-bottom: 20px; }
 
 #customerReviewHeader{
     font-size: 30px;
-    width: 60%;
+    
     margin: 0px auto;
 }
 
 #carousel {
     position: relative;
-    width: 100%;
+    width: 50%;
     padding: 0;
     margin: 0 auto;
 }
@@ -4205,7 +4270,7 @@ header{ margin-bottom: 20px; }
     position: relative;
     width: 100%;
     margin:0 auto;
-    height: 200px;
+    height: 300px;
 }
 
 #textSli ul {
@@ -4302,10 +4367,136 @@ a#next:hover {
   width: 100%;
 }
 
+/*--Quote.html--*/
+
+input::-moz-placeholder,textarea::-moz-placeholder{
+    color: #868686;
+    font-size: 1em;
+}
+
+input:-moz-placeholder,textarea::-moz-placeholder{
+    color: #868686;
+    font-size: 1em;
+}
+
+input:-ms-input-placeholder,textarea::-ms-input-placeholder{
+    color: #868686 !important;
+    font-size: 1em !important;
+}
+
+input::-webkit-placeholder,textarea::-moz-placeholder{
+    color: #868686;
+    font-size: 1em;
+}
+
+input[placeholder="Last Name"],
+input[placeholder="First Name"]{
+    max-width: 297px;
+}
+
+.fieldsetReset{
+    border: 1px solid #cecece;
+    width: 90%;
+    max-width: 600px ;
+    padding: 0 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.legendReset{
+    width: auto;
+    border-bottom: 0;
+    margin: 0 0 0 30px;
+    padding: 0 25px;
+    color: #333;
+    
+}
+
+.fieldsetReset input{
+   text-align: left;
+    width: auto;
+    margin: 0 2px 0 0;
+}
+
+.fieldsetReset p{
+    font-weight: 400;
+    font-size: 1.5em;
+    
+}
+
+.fieldsetReset p:first-of-type{
+}
 
 
+/*---FAQ.html-*/
+#faqSection{
+    background: url(BuytessPregEdit1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color:brown;
+}
+
+#faqRow{
+    margin: 20px;
+}
+
+#faqWrapper{
+    margin:0 0 0 40px;
+    padding: 50px 0;
+}
+
+#faqRow h3{
+    font-size:20px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    margin: 0px 0;
+    width:;
+    
+}
+
+#faqRow p{
+    background-color: black;
+    text-align: left;
+    color:lightgray;
+    padding:10px;
+    margin: 0 60px;
+    width: auto;
+    border-radius: 10px;
+    
+}
+
+.fa-sort-down{
+    padding: 0 5px
+}
+
+
+
+#faqRow:first-child{
+    
+}
+
+#faqButton{
+    background-color:#00aeff;
+    margin: 0 10px;
+    padding: ;
+}
+
+#faqAnswer{
+    display:none;
+}
 
 /*-----END----- Buytess*/
+
+
+
+
+
+
+
 
 /*----------------------------------------------------------------------------------------
 
