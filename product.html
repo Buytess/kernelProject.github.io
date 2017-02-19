@@ -43,6 +43,7 @@ img.emoji {
 <link rel="stylesheet" id="shop-css" href="assets/shop.css" type="text/css" media="all">
 <link rel="stylesheet" id="jquery-ui-css" href="assets/jquery-ui.css" type="text/css" media="all">
 <link rel="stylesheet" id="style-css" href="assets/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="style-css" href="assets/mediaQueryBuytess.css" type="text/css" media="all">
 <link rel="stylesheet" id="main-css" href="assets/style(1).css" type="text/css" media="all">
 <link rel="stylesheet" id="dynamic-css" href="assets/dynamic.css" type="text/css" media="all">
 <link rel="stylesheet" id="builder-css" href="assets/builder.css" type="text/css" media="all">
@@ -157,11 +158,27 @@ img.emoji {
 <div id="home"></div>
 <nav class="navbar navbar-fixed-top navbar-slide no-sticky" data-sticky="1">
     <div class="container_fluid"> 
-      <span class="container-logo" id="logo"><a href="/" class="navbar-brand goto" title="yuVIEW"><img class="logo" alt="Buytess Logo" title="" src="assets/BuytessLogoMain.png" style="width:130px"></a></span><a class="contact-btn" data-toggle="modal" data-target="#modalContact"><img src="assets/mail.png" style="width:50px"/></a>
-      <button class="navbar-toggle menu-collapse-btn collapsed" data-toggle="collapse" data-target=".navMenuCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-       <div class="collapse navbar-collapse navMenuCollapse"><ul id="menu-app-en" class="nav"><li><a href="/" class="external">Home</a></li>
-<li><a href="/product" class="external">Products</a></li>
-</ul></div>
+      <span class="container-logo" id="logo">
+          <a href="index.html" class="navbar-brand goto" draggable="false" title="Buytess Online">
+              <img class="logo" alt="Buytess Logo" draggable="false" title="Buytess Online" src="assets/BuytessLogoMain.png" style="width:130px">
+          </a>
+        </span>
+        
+        <a class="contact-btn" data-toggle="modal" data-target="#modalContact">
+            <img src="assets/mail.png" style="width:50px"/>
+        </a>
+      <button class="navbar-toggle menu-collapse-btn collapsed" data-toggle="collapse" data-target=".navMenuCollapse"> 
+          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span>
+        </button>
+       <div class="collapse navbar-collapse navMenuCollapse">
+           <ul id="menu-app-en" class="nav">
+               <li><a href="index.html" class="external">Home</a></li>
+               <li><a href="product.html" class="external">Products</a></li>
+               <li><a href="faq.html" class="external">FAQ</a></li>
+           </ul>
+        </div>
     </div>
 </nav>
 <!-- NAVIGAION END -->
@@ -185,7 +202,7 @@ img.emoji {
 <!-- /Intro -->       
   </div>
     
-  <div class="block-bg" data-stellar-ratio="0.4" style="transform: translate3d(0px, 0px, 0px); background: url(&quot;assets/baby101.jpg&quot;) center center / cover;"></div>
+  <div class="block-bg" data-stellar-ratio="0.4" style="transform: translate3d(0px, 0px, 0px); background: url(assets/pregnant2.jpg) center center / cover;"></div>
 </header>
 
 <!-- INTRO END --> 
@@ -197,7 +214,7 @@ img.emoji {
               </div>
             
             <section id="bareEssential">
-                <div id="text11" style="height:85px; width:100%; margin: 0 auto;">
+                <div id="h3Wrapper">
                     <h3 style="background-color: #FFBDED" id="prodH3">THE BARE PACKAGE</h3>
                 </div>
                 
@@ -351,6 +368,10 @@ img.emoji {
                    </div>
                    
                    </div>
+                       
+                       <a href="quote.html" target="_blank">
+                           <button id="placeOrderButton">Place Order</button>
+                       </a>
                    
                    </div>
                  
@@ -359,8 +380,8 @@ img.emoji {
             <hr style="padding:10px 0 0px 0;">
             
             <section id="basicEssential">
-                <div style="height:85px; width:100%; margin: 0 auto; background-color: #C6FFA6 ">
-                    <h3 id="prodH3">THE BASIC ESSENTIAL PACKAGE</h3>
+                <div id="h3Wrapper">
+                    <h3 style="background-color: #C6FFA6" id="prodH3">THE BASIC ESSENTIAL PACKAGE</h3>
                 </div>
                 <!-- style="background-color: #f8f8f8;" container-fluid -->
                    <div class="container-fluid">
@@ -518,6 +539,10 @@ img.emoji {
                    
                    </div>
                    
+                       <a href="quote.html" target="_blank">
+                           <button id="placeOrderButton">Place Order</button>
+                       </a>
+                       
                    </div>
                  
               </section>
@@ -525,8 +550,8 @@ img.emoji {
             <hr style="padding:10px 0 0px 0;">
 
             <section id="plusPackage">
-                <div style="height:85px; width:100%; margin: 0 auto; background-color: #FFFE56 ">
-                    <h3 id="prodH3">THE ESSENTIAL PLUS PACKAGE</h3>
+                <div id="h3Wrapper">
+                    <h3 style="background-color: #FFFE56" id="prodH3">THE ESSENTIAL PLUS PACKAGE</h3>
                 </div>
                    <div class="container-fluid">
                        
@@ -686,7 +711,11 @@ img.emoji {
                    </div>
                    
                    </div>
-                   
+
+                       <a href="quote.html" target="_blank">
+                           <button id="placeOrderButton">Place Order</button>
+                       </a>
+                       
                    </div>
                  
               </section>
@@ -715,7 +744,7 @@ img.emoji {
 
         <div class="container-logo" id="footer-logo">
             <a class="logo goto">
-                <img style="width:50%" class="logo" src="assets/BuytessLogoMain.png" alt="Your Logo">
+                <img style="width:50%" class="logo" draggable="false" src="assets/BuytessLogoMain.png" alt="Buytess Logo">
             </a>
         </div>
         

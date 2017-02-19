@@ -1,0 +1,961 @@
+/*320px - 480 (Portrait ans Landscape)*/
+@media screen and (max-width:320px) and (orientation: portrait), screen and (max-width:480px) and (orientation: landscape), 
+       screen and (max-width:480px) and (orientation: portrait), screen and (max-width:480px) and (orientation: landscape){
+           .logo{ 
+                margin: 5px 0px 0px -10px;
+                width: 120px;
+           }
+           
+    /*index.html*/
+           #builder-column-5476e40ea72d1{
+               background-color:black;
+              display: none 
+               
+           }
+           .screen-couple-right .beyond, 
+           .screen-couple-left .beyond {
+                             
+           }
+           
+           #sloganWord{
+                margin: 0 auto;
+                padding: 0 !important;
+                background-color: black;
+                border-radius: 5px;
+                clear: both;
+                float: none;
+           }
+           #sloganWord li{
+               font-size: 20px !important;
+               height:;
+               font-weight: normal;
+           }
+           
+           #sloganWord p{
+               font-size: 10px;
+               margin: 0;
+           }
+           
+           .textAlign{
+               text-align: ;
+           }
+           
+           .rowTag{
+               padding:0 10px;
+           }
+           
+           #tagUL li{
+               padding: 5px;
+           }
+           
+           #tag1Top{
+               padding: 10px;
+               line-height: 3;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag1{
+               width: 100%;
+               height: auto;
+               padding-bottom: 20px;
+               margin: 5px 0 20px 0;
+           }
+           
+           #tag2Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag2{
+               width: 100%;
+               margin: 20px auto;
+               height: auto;
+               padding-bottom: 20px;
+           }
+           
+           #tag3Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag3{
+               width: 100%;
+               margin: 20px auto;
+               height: auto;
+               padding-bottom: 20px;
+           }
+           
+           #customerReviewHeader{
+               font-size: 22px; 
+               margin: 0px auto 30px auto;
+           }
+           
+           #carousel {
+               position: relative;
+               width: 100%;
+               padding: 0;
+               margin: 0 auto;
+           }
+           
+           .quote-phrase {
+               font-size: 20px;
+               font-style:italic;
+               line-height: 1.5;
+               text-shadow: .5px 0px #b14943;
+               
+           }
+           
+           .quote-phrase,
+            .quote-author {
+              font-weight: 300;
+              display: table-cell;
+              vertical-align: middle;
+              padding: 0px 2px;
+              font-family: 'Lato', Calibri, Arial, sans-serif;
+           }
+           
+           .quote-author {
+              font-style: normal;
+              font-size: 15px;
+              color: #b14943;
+              font-weight: 400;
+              height: 0px;
+               margin: 0px !important;
+               padding: 0 !important;
+           }
+           
+            .btn-bar {
+              width: 100%;
+              margin: 0 auto;
+              display: block;
+              position: relative;
+              top: 140px;
+            }
+
+            #buttons {
+                position: relative;
+                width: 100%;
+                height: 100px;
+
+            }
+
+            #buttons a {
+                display: block;
+                font-size: 40px;
+                font-weight: 900;
+                color: brown;
+                text-decoration: none;
+                margin: -25px 0px 0px 0px;
+            }
+
+           
+    /*--END index.html--*/
+           
+           
+    /*Product.html*/
+    #productListTop ol li,
+    #productListBottom ol li{
+       margin-left: -20px;
+       text-align: ;
+        color:black;
+    }
+    ol{
+        padding-bottom: 10px;
+    }
+    ol span{
+        text-align: center !important;
+        margin: 0 auto !important;
+        
+    }
+    #prodH3{
+        height: 50px;
+        font-size: 19px;
+    }
+    
+    #productListHeader{
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 5px;
+        
+    }
+    #productListTop{
+        border-radius: 5px;
+        padding: 0;
+        margin: -5px;
+    }
+    
+    #basicEssential #productListTop,
+    #basicEssential #productListBottom {
+        background-color:#f8f8f8;
+    }
+    
+    #bareEssential,
+    #plusPackage{
+    background:#fff
+}
+           
+           
+           /*--Quote.html--*/
+           
+           
+input[placeholder="Last Name"],
+input[placeholder="First Name"]{
+    max-width: 100%;
+}
+
+.fieldsetReset{
+    border: 1px solid #cecece;
+    max-width: 600px;
+    padding: 10px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px
+}
+
+.legendReset{
+    
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 0;
+    margin: 0 0 10px 0px;
+    padding: 0 0px;
+    color: #333;
+    line-height: 0.9;
+    
+}
+
+.fieldsetReset input{
+   text-align: left;
+    width: auto;
+    margin: 0 2px 0 0;
+}
+
+.fieldsetReset p{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+           }
+           
+           
+           /*---FAQ.html-*/
+#faqSection{
+background: url(BuytessPregEditTransparent.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
+background-attachment: fixed;
+background-color:none;
+}
+
+#faqRow{
+    margin: 50px;
+}
+
+#faqWrapper{
+    margin:0;
+    padding:0;
+}
+
+#faqRow h3{
+    font-size:1em;
+    text-align: center;
+    color: black;
+    margin: 0 -10px;
+    font-weight:bold;
+    
+}
+
+#faqRow p{
+    background:none;
+    color:black;
+    line-height:1;
+    padding:20px;
+    margin: 0;
+    width: auto;
+    border-radius: 10px;
+    
+}
+
+.fa-sort-down{
+    padding: 0 5px
+}
+
+
+
+#faqRow:first-child{
+    
+}
+
+#faqButton{
+    background-color:#00aeff;
+    margin: 0;
+    padding: ;
+    float:left;
+}
+
+#faqAnswer{
+    display:none;
+}
+
+}
+
+@media (min-width:480px) and (max-width:767px){
+    .logo{
+         margin: 5px 0px 0px -10px;
+         width: 120px;
+    }
+    
+    /*index.html*/
+    
+    #builder-column-5476e40ea72d1{
+               background-color:black;
+              display: none 
+               
+           }
+           .screen-couple-right .beyond, 
+           .screen-couple-left .beyond {
+                             
+           }
+           
+           #sloganWord{
+               width: 100%;
+                margin: 0 auto;
+                padding: 0 !important;
+                background-color: black;
+                border-radius: 5px;
+                clear: both;
+                float: none;
+           }
+           #sloganWord li{
+               font-size: 30px;
+               font-weight: normal;
+           }
+           
+           #sloganWord p{
+               font-size: 15px;
+               margin: 0;
+        }
+          
+           .textAlign{
+              
+           }
+           
+            .rowTag{
+                padding:0 10px; 
+            }
+    
+           #tagUL li{
+               padding: 5px;
+           }
+           
+           #tag1Top{
+               padding: 10px;
+               line-height: 3;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag2Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+          
+           #tag3Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+    
+            #tag1,
+            #tag2,
+            #tag3{
+                height: auto;
+                padding-bottom:20px;
+            }
+    
+    
+           #customerReviewHeader{
+               margin: 0px auto 30px auto;
+           }
+           
+           #carousel {
+               position: relative;
+               width: 100%;
+               padding: 0;
+               margin: 0 auto;
+           }
+           
+           .quote-phrase {
+               font-style:italic;
+               text-shadow: .5px 0px #b14943;
+               
+           }
+           
+           .quote-phrase,
+            .quote-author {
+              font-weight: 300;
+              display: table-cell;
+              vertical-align: middle;
+              font-family: 'Lato', Calibri, Arial, sans-serif;
+           }
+           
+           .quote-author {
+              font-style: normal;
+              color: #b14943;
+              font-weight: 400;
+              height: 0px;
+           }
+           
+            .btn-bar {
+              width: 90%;
+              margin: 0 auto;
+              display: block;
+              position: relative;
+              top: 140px;
+            }
+
+            #buttons {
+                position: relative;
+                width: 100%;
+                height: 100px;
+
+            }
+
+            #buttons a {
+                display: block;
+                font-weight: 900;
+                color: brown;
+                text-decoration: none;
+                margin: -25px 0px 0px 0px;
+            }
+    
+    
+          
+           
+    /*--END iindex.html--*/
+           
+           
+    /*Product.html*/
+    
+    #productListTop ol li,
+    #productListBottom ol li{
+       margin-left: -20px;
+      
+        color:black;
+    }
+    ol{
+        padding-bottom: 10px;
+    }
+    ol span{
+        text-align: center !important;
+        margin: 0 auto !important;
+        
+    }
+    #prodH3{
+        height: 50px;
+        font-size: 19px;
+    }
+    
+    #productListHeader{
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 5px;
+        
+    }
+    #productListTop{
+        border-radius: 5px;
+        padding: 0;
+        margin: -5px;
+    }
+    
+    #basicEssential #productListTop,
+    #basicEssential #productListBottom {
+        background-color:#f8f8f8;
+    }
+    
+    #bareEssential,
+    #plusPackage{
+    background:#fff
+}
+    
+    
+    /*--Quote.html--*/
+input[placeholder="Last Name"],
+input[placeholder="First Name"]{
+    max-width: 100%;
+}
+
+.fieldsetReset{
+    border: 1px solid #cecece;
+    max-width: 600px;
+    width: 80%;
+    padding: 10px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px
+}
+
+.legendReset{
+    
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 0;
+    margin: 0 0 10px 0px;
+    padding: 0 0px;
+    color: #333;
+    line-height: 0.9;
+    
+}
+
+.fieldsetReset input{
+   text-align: left;
+    width: auto;
+    margin: 0 2px 0 0;
+}
+
+.fieldsetReset p{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+           }
+    
+    /*Faq.html*/
+    
+#faqSection{
+background: url(BuytessPregEditTransparent.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
+    background-attachment:fixed;
+background-color:brown;
+}
+
+#faqRow{
+    margin: 20px;
+}
+
+#faqWrapper{
+    margin:0 0  90px 0;
+    padding: 0;
+}
+
+#faqRow h3{
+    font-size:1em;
+    text-align: left;
+    font-weight:bold;
+    color: black;
+    margin: 0px -10px;
+    width:;
+    
+}
+
+#faqRow p{
+    background-color: black;
+    text-align: left;
+    color:lightgray;
+    padding:10px;
+    margin: 0 60px;
+    width: auto;
+    border-radius: 10px;
+    
+}
+
+.fa-sort-down{
+    padding: 0 5px
+}
+
+
+
+#faqRow:first-child{
+    
+}
+
+#faqButton{
+    background-color:#00aeff;
+    margin: 0 10px 0 0;
+    padding: ;
+    float:left;
+}
+
+#faqAnswer{
+    display:none;
+}
+    
+    
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .logo{
+         margin: 5px 0px 0px -10px;
+         width: 120px;;
+         height: auto;
+    }
+    /*index.html*/
+    
+    #builder-column-5476e40ea72d1{
+            background-color:black;
+            display: none; 
+               
+           }
+           .screen-couple-right .beyond, 
+           .screen-couple-left .beyond {
+                             
+           }
+           
+           #sloganWord{
+               width: 50%;
+                margin: 0 auto;
+                padding: 0 !important;
+                background-color: black;
+                border-radius: 5px;
+                clear: both;
+                float: none;
+           }
+           #sloganWord li{
+               font-size: 30px;
+               font-weight: normal;
+           }
+           
+           #sloganWord p{
+               font-size: 15px;
+               margin: 0;
+        }
+      
+    
+           .textAlign{
+              
+           }
+           
+           #tagUL li{
+               padding: 5px;
+           }
+    
+            .rowTag{
+               padding: 0 10px;
+           }
+    
+           #tag1Top{
+               padding: 10px;
+               line-height: 3;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag2Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag3Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+            
+            #customerReviewHeader{
+               margin: 0px auto 30px auto;
+           }
+           
+           #carousel {
+               position: relative;
+               width: 100%;
+               padding: 0;
+               margin: 0 auto;
+           }
+           
+           .quote-phrase {
+               font-style:italic;
+               text-shadow: .5px 0px #b14943;
+               
+           }
+           
+           .quote-phrase,
+            .quote-author {
+              font-weight: 300;
+              display: table-cell;
+              vertical-align: middle;
+              font-family: 'Lato', Calibri, Arial, sans-serif;
+           }
+           
+           .quote-author {
+              font-style: normal;
+              color: #b14943;
+              font-weight: 400;
+              height: 0px;
+           }
+           
+            .btn-bar {
+              width: 90%;
+              margin: 0 auto;
+              display: block;
+              position: relative;
+              top: 140px;
+            }
+
+            #buttons {
+                position: relative;
+                width: 100%;
+                height: 100px;
+
+            }
+
+            #buttons a {
+                display: block;
+                font-weight: 900;
+                color: brown;
+                text-decoration: none;
+                margin: -25px 0px 0px 0px;
+            }
+           
+           
+    /*--END iindex.html--*/
+    
+    /*--Quote.html--*/
+    
+    .fieldsetReset{
+    border: 1px solid #cecece;
+    max-width: 600px;
+    width: 80%;
+    padding: 10px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px
+}
+    
+    input[placeholder="Last Name"],
+    input[placeholder="First Name"]{
+        width:39.7%;
+        max-width: 300px;
+    }
+    
+    
+    
+#faqSection{
+background: url(BuytessPregEdit1.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
+background-color:brown;
+}
+
+#faqRow{
+    margin: 20px;
+}
+
+#faqWrapper{
+    margin:0 0  90px 0;
+    padding: 0;
+}
+
+#faqRow h3{
+    font-size:1em;
+    text-align: left;
+    color: black;
+    margin: 0px 0;
+    width:;
+    
+}
+
+#faqRow p{
+    background-color: black;
+    text-align: left;
+    color:lightgray;
+    padding:10px;
+    margin: 0 60px;
+    width: auto;
+    border-radius: 10px;
+    
+}
+
+.fa-sort-down{
+    padding: 0 5px
+}
+
+
+
+#faqRow:first-child{
+    
+}
+
+#faqButton{
+    background-color:#00aeff;
+    margin: 0 10px;
+    padding: ;
+}
+
+#faqAnswer{
+    display:none;
+}
+    
+    
+    
+}
+
+@media (min-width:768px) and (max-width:1018px){
+    
+    .logo{
+         margin: 5px 0px 0px -10px;
+         width: 120px;
+    }
+    /*index.html*/
+    
+   
+           .textAlign{
+            
+           }
+           
+           #tagUL li{
+               padding: 5px;
+           }
+    
+            .rowTag{
+               padding: 0 10px;
+           }
+    
+           #tag1Top{
+               padding: 10px;
+               line-height: 3;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag2Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+           
+           #tag3Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+            
+            #customerReviewHeader{
+               margin: 0px auto 30px auto;
+           }
+           
+           #carousel {
+               position: relative;
+               width: 100%;
+               padding: 0;
+               margin: 0 auto;
+           }
+           
+           .quote-phrase {
+               font-style:italic;
+               text-shadow: .5px 0px #b14943;
+               
+           }
+           
+           .quote-phrase,
+            .quote-author {
+              font-weight: 300;
+              display: table-cell;
+              vertical-align: middle;
+              font-family: 'Lato', Calibri, Arial, sans-serif;
+           }
+           
+           .quote-author {
+              font-style: normal;
+              color: #b14943;
+              font-weight: 400;
+              height: 0px;
+           }
+           
+            .btn-bar {
+              width: 90%;
+              margin: 0 auto;
+              display: block;
+              position: relative;
+              top: 140px;
+            }
+
+            #buttons {
+                position: relative;
+                width: 100%;
+                height: 100px;
+
+            }
+
+            #buttons a {
+                display: block;
+                font-weight: 900;
+                color: brown;
+                text-decoration: none;
+                margin: -25px 0px 0px 0px;
+            }
+           
+           
+    /*--END iindex.html--*/
+}
+
+@media (max-width:1024px){
+    .logo{
+        margin: 5px 0px 0px -10px;
+    }
+    
+    
+    
+    #productListTop ol li,
+    #productListBottom ol li{
+       margin-left: -20px;
+        color:black;
+        font-weight: normal;
+    }
+    ol{
+        padding-bottom: 10px;
+    }
+    ol span{
+        text-align: center !important;
+        margin: 0 auto !important;
+        
+    }
+    #prodH3{
+        height: 50px;
+        font-size: 19px;
+    }
+    
+    #productListHeader{
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 5px;
+        
+    }
+    #productListTop{
+        border-radius: 5px;
+        padding: 0;
+        margin: -5px;
+    }
+    
+    #basicEssential #productListTop,
+    #basicEssential #productListBottom {
+        background-color:#f8f8f8;
+    }
+    
+    #bareEssential,
+    #plusPackage{
+    background:#fff
+}
+}

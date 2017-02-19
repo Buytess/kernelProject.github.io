@@ -1,4 +1,6 @@
-$(document).ready(function () {
+(function($) {
+
+   $(document).ready(function () {
     //rotation speed and timer
     var speed = 5000;
     
@@ -69,3 +71,21 @@ $(document).ready(function () {
 function rotate() {
     $('#next').click();
 }
+    
+    //FAQ Slide Toggle
+    
+    $(document).ready(function (){
+        
+       $("button").click(function(){
+       $(this).parent("h3").siblings("#faqAnswer").slideToggle(300);
+        
+        //$("#faqAnswer").slideToggle("slow");
+        
+        
+    })
+        
+    });
+    
+   
+    
+})(jQuery);
