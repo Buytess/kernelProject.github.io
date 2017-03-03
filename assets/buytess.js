@@ -86,6 +86,11 @@ function rotate() {
         
     });
     
-   
+    /*Bounce*/
+   /*
+   $('#supplier li img').mouseenter(function() {
+    $(this).effect('bounce',500);
+});
+*/
     
 })(jQuery);
