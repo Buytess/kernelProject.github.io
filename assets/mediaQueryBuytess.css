@@ -50,7 +50,6 @@
            }
            
            #tagUL li{
-               padding: 5px;
            }
            
            #tag1Top{
@@ -163,6 +162,11 @@
            
            
     /*Product.html*/
+           .owl-carousel .owl-item{
+           }
+           .owl-carousel img{
+           }
+           
     #productListTop ol li,
     #productListBottom ol li{
        margin-left: -20px;
@@ -177,10 +181,17 @@
         margin: 0 auto !important;
         
     }
-    #prodH3{
-        height: 50px;
-        font-size: 19px;
-    }
+           #prodH3{
+               font-size:90px ;
+               margin:0 auto;
+               font-weight:700;
+           }
+           
+           .pkgDecoyRight,
+           .pkgDecoyLeft{
+               display: none;
+           }
+           
     
     #productListHeader{
         font-weight: bold;
@@ -279,9 +290,8 @@ background-color:none;
 }
 
 #faqRow p{
-    background:none;
-    color:black;
-    line-height:1;
+    background:#333;
+    line-height:1.5;
     padding:20px;
     margin: 0;
     width: auto;
@@ -361,6 +371,7 @@ background-color:none;
     
            #tagUL li{
                padding: 5px;
+               margin:10px 0;
            }
            
            #tag1Top{
@@ -455,6 +466,65 @@ background-color:none;
            
            
     /*Product.html*/
+    #h3Wrapper{
+    padding: 0;    
+        margin: 0;
+    }
+    
+    #h3Wrapper ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+    
+
+    #h3Wrapper li:first-child{
+        float: left;
+        margin-top:20px;
+        margin-left:10px;
+    }
+
+    #h3Wrapper li:last-child{
+        float: right;
+        margin-top:20px;
+        margin-right:10px;
+    }
+    
+    #h3Wrapper ul li{
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 20px;
+    }
+   
+    
+    #prodH3{
+        margin:0;
+        font-weight:700;
+    }
+    
+    
+           
+    .pkgDecoyRight,
+    .pkgDecoyLeft{
+        font-size: 15px;
+        margin: 0;
+    }
+    
+    .fa-arrow-circle-o-right{
+        color:;
+        float: right;
+        margin-left: 10px;
+        font-size: 2em;
+    }
+    .fa-arrow-circle-o-left{
+        float: left;
+        font-size: 2em;
+        margin-right: 10px;
+        color: ;
+    
+    }
+    
     
     #productListTop ol li,
     #productListBottom ol li{
@@ -470,10 +540,7 @@ background-color:none;
         margin: 0 auto !important;
         
     }
-    #prodH3{
-        height: 50px;
-        font-size: 19px;
-    }
+  
     
     #productListHeader{
         font-weight: bold;
@@ -544,12 +611,12 @@ input[placeholder="First Name"]{
     /*Faq.html*/
     
 #faqSection{
-background: url(BuytessPregEditTransparent.png);
-background-repeat: no-repeat;
-background-size: contain;
-background-position: right;
+    background: url(BuytessPregEditTransparent.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
     background-attachment:fixed;
-background-color:brown;
+    background-color:;
 }
 
 #faqRow{
@@ -572,9 +639,8 @@ background-color:brown;
 }
 
 #faqRow p{
-    background-color: black;
+    background-color: #333;
     text-align: left;
-    color:lightgray;
     padding:10px;
     margin: 0 60px;
     width: auto;
@@ -651,7 +717,9 @@ background-color:brown;
            }
            
            #tagUL li{
-               padding: 5px;
+               padding: 0 5px;
+               
+               font-size: 15px;
            }
     
             .rowTag{
@@ -661,6 +729,7 @@ background-color:brown;
            #tag1Top{
                padding: 10px;
                line-height: 3;
+               min-height: 150px;
                width: 100%;
                margin: 0px 0px 0px 0px;
            }
@@ -668,6 +737,7 @@ background-color:brown;
            #tag2Top{
                padding: 5px;
                line-height: 4;
+               min-height: 150px;
                width: 100%;
                margin: 0px 0px 0px 0px;
            }
@@ -675,10 +745,26 @@ background-color:brown;
            #tag3Top{
                padding: 5px;
                line-height: 4;
+               min-height: 150px;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+            #tag4Top{
+               padding: 5px;
+               line-height: 4;
+               min-height: 150px;
                width: 100%;
                margin: 0px 0px 0px 0px;
            }
             
+    
+            #tag4Top{
+               padding: 5px;
+               line-height: 4;
+               width: 100%;
+               margin: 0px 0px 0px 0px;
+           }
+    
             #customerReviewHeader{
                margin: 0px auto 30px auto;
            }
@@ -763,7 +849,7 @@ background: url(BuytessPregEdit1.png);
 background-repeat: no-repeat;
 background-size: contain;
 background-position: right;
-background-color:brown;
+background-color:;
 }
 
 #faqRow{
@@ -785,9 +871,8 @@ background-color:brown;
 }
 
 #faqRow p{
-    background-color: black;
+    background-color: #333;
     text-align: left;
-    color:lightgray;
     padding:10px;
     margin: 0 60px;
     width: auto;
@@ -841,6 +926,12 @@ background-color:brown;
             .rowTag{
                padding: 0 10px;
            }
+            #tag1,
+            #tag2,
+            #tag3,
+            #tag4{
+                
+            }
     
            #tag1Top{
                padding: 10px;

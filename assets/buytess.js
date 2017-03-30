@@ -92,5 +92,44 @@ function rotate() {
     $(this).effect('bounce',500);
 });
 */
+   
+ 
+    
+    
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:200,
+        nav:true,
+        navigation:false,
+        autoPlay: true,
+        autoplayHoverPause:true,
+        items:11,
+        itemElement:'.views-row',
+        itemsMobile : [500,3],
+        itemsTablet:  [1000,5],
+        itemsDesktop :  [1500,11],
+        
+        pagination: false,
+      /*  responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }*/
+    });
+    
+    $(".navbar-toggle").click(function(){
+        $(".navbar-collapse").slideToggle();
+    });
+    
+   
+
     
 })(jQuery);
+
+ 
