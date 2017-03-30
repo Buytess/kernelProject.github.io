@@ -1835,15 +1835,7 @@ label.error {
 
 .owl-carousel {
 
-	display: none;
-
-	position: relative;
-
-	width: 100%;
-
-	-ms-touch-action: pan-y;
-
-	margin-top: 100px;
+	
 
 }
 
@@ -4075,6 +4067,10 @@ header{ margin-bottom: 20px; }
     padding: 3px;
 }
 
+a{
+    cursor: pointer;
+}
+
 #supplier ul li{
     display:inline;
     padding: 0 10px;
@@ -4118,7 +4114,21 @@ header{ margin-bottom: 20px; }
 }
 
 /*Product.html*/
+.owl-carousel .owl-item{
+}
 
+.owl-carousel img{
+    padding: 5px;
+}
+
+.activePackage{
+    font-weight: 600;
+}
+.tableHeader{
+    text-align: center;
+    font-size:20px;
+    color:orange;
+}
 
 #placeOrderButton{
     line-height: 2;
@@ -4137,17 +4147,25 @@ header{ margin-bottom: 20px; }
 
 #productListBottom{
     padding: 30px 0 0 0;
-    text-align: left;
 }
 
 #tagProductList{
     background-color:#00aeff;
 }
 
-#prodH3{
-    line-height:3;
+#tagProductList:hover{
+    color:#fff;
+    box-shadow:2px 0px 5px 0px #333 ;
+    transition: 0.3s;
 }
-/* background-color: #FFBDED " for bare package header*/
+
+#tagProductList:active{
+    color:green;
+    background-color:#fff;
+}
+
+
+/* background-color: #FFBDED " for bare package header              col-md-4*/
 
 #productListHeader{
     font-weight:bold;
@@ -4162,6 +4180,7 @@ header{ margin-bottom: 20px; }
 
 #bareEssential,
 #basicEssential,
+#essentialFlexi,
 #plusPackage{
     background: url(babyBackground1-2Edit.jpg);
     background-repeat:no-repeat;
@@ -4171,6 +4190,7 @@ header{ margin-bottom: 20px; }
 
 #bareEssential,
 #basicEssential,
+#essentialFlexi,
 #plusPackage{
     padding: 0;
     margin: 0;
@@ -4182,22 +4202,85 @@ header{ margin-bottom: 20px; }
 
 
 #h3Wrapper{
-    margin-top: -20px;
+    position: relative;
+}
+
+#prodH3{
+    font-weight:700;
 }
 
 
-#productListTop ol li,
-    #productListBottom ol li{
-        line-height: 2;
-        font-weight: 600;
-    }
+.pkgDecoyRight,
+.pkgDecoyLeft{
+    font-size: 25px;
+}
+
+#h3Wrapper ul{
+    margin: 0;
+    padding: 30px 0;
+    
+}
+
+#h3Wrapper ul li{
+    display: inline-block;
+}
+
+#h3Wrapper li:first-child{
+    float: left;
+    margin-top:30px;
+    margin-left: 10px;
+    
+}
+
+#h3Wrapper li:last-child{
+    float: right;
+    margin-top:30px;
+    margin-right: 10px;
+}
+
+.fa-arrow-circle-o-right{
+    color:;
+    margin-left: 10px;
+    font-size: 2em;
+}
+.fa-arrow-circle-o-left{
+    font-size: 2em;
+    margin-right: 10px;
+    color: ;
+}
+
+#bareEssential tr:nth-child(2),
+#basicEssential tr:nth-child(2),
+#essentialFlexi tr:nth-child(2),
+#plusPackage tr:nth-child(2){
+    background-color:#ddd;
+}
+
+
+
+#productListTop table td,
+#productListBottom table td{
+    line-height: 2;
+    font-weight: 600;
+    text-align: left
+}
 
 #tagSection{
     padding-bottom: 10px;
 }
 #tagWrapper{
+    
 }
 
+.fa-truck{
+    color: #00aeff;
+    font-size: 30px ;
+    
+}
+
+.deliveryText{
+    margin-bottom: 30px;
+}
 #tag1Top{
     padding: 50px;
     width: 100%;
@@ -4208,7 +4291,7 @@ header{ margin-bottom: 20px; }
 #tag2Top{
     padding: 50px;
     width: 100%;
-    background-color: #C6FFA6;
+    background-color: #44a0b5;
     
 }
 
@@ -4216,17 +4299,45 @@ header{ margin-bottom: 20px; }
     padding: 50px;
     width: 100%;
     margin: 0px 0px 0px 0px;
+    background-color: #C6FFA6;
+    
+}
+
+#tag4Top{
+    padding: 50px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
     background-color: #FFFE56;
     
 }
+
+
+
 
 #tagUL li{
     padding: 10px;
 }
 
+#tagUL li:first-child{
+    text-decoration: line-through;
+}
+
 #tagButton{
     padding: 10px;
     border-radius: ;
+    margin-bottom: 30px;
+}
+
+#tagButton:hover{
+    color:#333;
+    box-shadow:2px 0px 5px 0px #333 ;
+    transition: 0.3s;
+}
+
+
+#tagButton:active{
+    color:green;
+    background-color:#fff;
 }
 
 .rowTag{
@@ -4262,6 +4373,17 @@ header{ margin-bottom: 20px; }
 }
 
 #tag3:hover{
+    box-shadow:6px 0px 40px 0px #333 ;
+    transition:0.5s;
+}
+
+#tag4{
+    height: auto;
+    padding-bottom: 30px;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+#tag4:hover{
     box-shadow:6px 0px 40px 0px #333 ;
     transition:0.5s;
 }
@@ -4452,7 +4574,7 @@ input[placeholder="First Name"]{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    background-color:brown;
+    background-color:#fff;
 }
 
 #faqRow{
