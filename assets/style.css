@@ -4150,6 +4150,9 @@ a{
 }
 
 #tagProductList{
+    line-height: 1;
+    padding: 10px;
+    border-radius: 5px;
     background-color:#00aeff;
 }
 
@@ -4212,7 +4215,7 @@ a{
 
 .pkgDecoyRight,
 .pkgDecoyLeft{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #h3Wrapper ul{
@@ -4281,22 +4284,29 @@ a{
 .deliveryText{
     margin-bottom: 30px;
 }
+
+#tag1Top,
+#tag2Top,
+#tag3Top,
+#tag4Top{
+    max-height: 150px;
+    padding:20px 45px 45px 45px;
+}
+
 #tag1Top{
-    padding: 50px;
     width: 100%;
     background-color: #FFBDED;
-    
 }
 
 #tag2Top{
-    padding: 50px;
     width: 100%;
     background-color: #44a0b5;
     
 }
 
-#tag3Top{
-    padding: 50px;
+#tag3Top{  
+    padding-bottom: 100px;
+    min-height: 130px;
     width: 100%;
     margin: 0px 0px 0px 0px;
     background-color: #C6FFA6;
@@ -4304,33 +4314,46 @@ a{
 }
 
 #tag4Top{
-    padding: 50px;
     width: 100%;
     margin: 0px 0px 0px 0px;
     background-color: #FFFE56;
     
 }
 
-
-
-
 #tagUL li{
+    margin: 20px 0;
     padding: 10px;
 }
 
-#tagUL li:first-child{
-    text-decoration: line-through;
+#tagUL li:first-child span{
+    position: relative;
+}
+
+#tagUL li:first-child span::after{
+    border-bottom: 0.125em solid brown;
+    color:;
+    content: "";
+    width: 100%;
+    margin-top: calc(0.125em / 2 * -1);
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+
+.mainPrice{
+    font-size: 20px;
 }
 
 #tagButton{
     padding: 10px;
-    border-radius: ;
+    border-radius: 5px;
     margin-bottom: 30px;
 }
 
 #tagButton:hover{
-    color:#333;
+    color:#fff;
     box-shadow:2px 0px 5px 0px #333 ;
+    background-color: brown;
     transition: 0.3s;
 }
 
