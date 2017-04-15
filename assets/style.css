@@ -4067,7 +4067,22 @@ header{ margin-bottom: 20px; }
     padding: 3px;
 }
 
+.active{
+    border-bottom: 4px solid #00aeff ;
+    font-weight: bold;
+    color:;
+}
+
+#contact a{
+    color: dodgerblue;
+}
+
+#contact a:hover{
+    color: blue;
+}
+
 a{
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -4275,20 +4290,12 @@ a{
     
 }
 
-.fa-truck{
-    color: #00aeff;
-    font-size: 30px ;
-    
-}
-
-.deliveryText{
-    margin-bottom: 30px;
-}
-
 #tag1Top,
 #tag2Top,
 #tag3Top,
 #tag4Top{
+    font-weight: bold;
+    text-align: center;
     max-height: 150px;
     padding:20px 45px 45px 45px;
 }
@@ -4314,6 +4321,7 @@ a{
 }
 
 #tag4Top{
+    padding-bottom: 100px;
     width: 100%;
     margin: 0px 0px 0px 0px;
     background-color: #FFFE56;
